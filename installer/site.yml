@@ -8,5 +8,6 @@
    - name: install
      win_package:
           path: C:\setup.exe
-          state: present
           productid: auto
+          state: present
+          
