@@ -10,4 +10,6 @@
           path: C:\setup.exe
           productid: auto
           state: present
+     register: output
+   - debug: var=output
           
